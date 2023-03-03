@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title for page -->
+    <title>Game-launcher</title>
+    <!-- main styles -->
+    <style>
+      /* reset css styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* width for body */
+      body {
+        width: 13500px;
+      }
+
+      /* wrapper styles */
+      .wrapper {
+        float: left;
+      }
+
+      /* bg styles */
+      .box-bg img {
+        height: 1000px;
+        float: left;
+        width: 2700px;
+      }
+
+      /* warning styles */
+      .box-warning {
+        position: relative;
+        height: 400px;
+        float: right;
+        margin-top: -400px;
+        z-index: 1;
+      }
+      .box-warning img {
+        width: 500px;
+        float: right;
+      }
+
+      /* street styles */
+      .box-street img {
+        position: relative;
+        height: 100px;
+        width: 2700px;
+      }
+
+      /* launcher styles*/
+      .box-launcher {
+        position: fixed;
+        width: 250px;
+        height: 250px;
+        left: 50px;
+        top: 200px;
+        z-index: 1;
+      }
+
+      /* wrapper final styles */
+      .final .box-bg,
+      .final .box-warning {
+        position: relative;
+        z-index: -3;
+      }
+      .final {
+        background-image: url(assets/lluvia.png);
+      }
+
+      /* animals styles */
+      .animals {
+        z-index: 0;
+      }
+      .mapaches {
+        position: fixed;
+        width: 250px;
+        margin-left: 300px;
+        margin-top: 360px;
+        z-index: 1;
+      }
+      .tigre {
+        position: absolute;
+        width: 500px;
+        margin-top: 600px;
+        margin-left: 1000px;
+      }
+      .lizard {
+        position: absolute;
+        width: 100px;
+        margin-top: 600px;
+        margin-left: 134.5rem;
+        z-index: 2;
+      }
+      .crow {
+        position: absolute;
+        width: 50px;
+        margin-top: 540px;
+        margin-left: 820rem;
+      }
+      .eagle {
+        position: absolute;
+        width: 500px;
+        margin-top: 200px;
+        margin-left: 200rem;
+      }
+      .aves {
+        position: absolute;
+        width: 500px;
+        margin-top: 100px;
+        margin-left: 260rem;
+      }
+      .frog {
+        position: absolute;
+        width: 100px;
+        margin-top: 590px;
+        margin-left: 310rem;
+        z-index: 2;
+      }
+      .cow {
+        position: absolute;
+        width: 300px;
+        margin-top: 750px;
+        margin-left: 400rem;
+      }
+      .cock {
+        position: absolute;
+        width: 150px;
+        margin-top: 430px;
+        margin-left: 480rem;
+        z-index: 1;
+      }
+      .astro {
+        position: absolute;
+        width: 300px;
+        margin-top: 400px;
+        margin-left: 600rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- box launcher -->
+    <div class="box-launcher">
+      <img src="assets/image 1.png" />
+    </div>
+
+    <!-- animals sections -->
+    <div class="animals">
+      <img class="mapaches" src="assets/animals.png" />
+      <img class="tigre" src="assets/tigre.png" />
+      <img class="eagle" src="assets/eagle.png" />
+      <img class="cow" src="assets/cow.png" />
+      <img class="astro" src="assets/astro.png" />
+      <img class="crow" src="assets/crow.png" />
+      <img class="cock" src="assets/cock.png" />
+      <img class="frog" src="assets/frog.png" />
+      <img class="lizard" src="assets/lizard.png" />
+      <img class="aves" src="assets/aves.png" />
+    </div>
+
+    <!-- wrapper sections -->
+    <div class="wrapper">
+      <div class="box-bg">
+        <img src="assets/bg1.png" />
+      </div>
+      <div class="box-content">
+        <div class="box-warning">
+          <img src="assets/Group 6.png" />
+        </div>
+        <div class="box-street">
+          <img src="assets/Group 1.png" />
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="box-bg">
+        <img src="assets/bg2.png" />
+      </div>
+      <div class="box-warning">
+        <img src="assets/Group 7.png" />
+      </div>
+      <div class="box-street">
+        <img src="assets/Group 2cra2.png" />
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="box-bg">
+        <img src="assets/bg3.png" />
+      </div>
+      <div class="box-warning">
+        <img src="assets/Group 9.png" />
+      </div>
+      <div class="box-street">
+        <img src="assets/Group 3cra3.png" />
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="box-bg">
+        <img src="assets/bg4.png" />
+      </div>
+      <div class="box-warning">
+        <img src="assets/Group 10.png" />
+      </div>
+      <div class="box-street">
+        <img src="assets/Group 4cra4.png" />
+      </div>
+    </div>
+    <div class="wrapper final">
+      <div class="box-bg">
+        <img src="assets/bg5.png" />
+      </div>
+      <div class="box-warning">
+        <img src="assets/Group 11.png" />
+      </div>
+      <div class="box-street">
+        <img src="assets/Group 9 cra5.png" />
+      </div>
+    </div>
+  </body>
+</html>
